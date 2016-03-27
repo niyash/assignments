@@ -1,0 +1,152 @@
+body{
+	background:silver;
+	color: #000305;
+	font-size: 87.5%;
+	font-family: sans-serif;
+	line-height: 1.5;
+	text-align: left;
+	
+}
+.body{
+	margin: 0 auto;
+	width: 70%;
+}
+a{
+	text-decoration: none;
+
+}
+a:link, a:visited{
+	color: #CF5C37;
+
+}
+a:hover, a:active{
+	color: #FFF;
+	background-color: #CF5C37;
+}
+.mainHeader img{
+	width: 30%;
+	height: auto;
+	margin: 2% 0;
+}
+nav{
+	background: #666;
+	height: 40px;
+	border-radius: 5px;
+}
+.mainHeader nav ul{
+	list-style: none;
+	margin: 0;
+	
+}
+.mainHeader nav ul li{
+	display: inline;
+	float: left;
+}
+.mainHeader nav a:link, .mainHeader nav a:visited{
+	color: #FFF;
+	display: inline-block;
+	padding: 10px 25px;
+	height: 20px;
+} 
+.mainHeader nav a:hover, .mainHeader nav a:active,
+.mainHeader nav .active a:link, .mainHeader nav .active a:visited 
+{
+	background: #CF5C37;
+	
+}
+.mainHeader nav a{
+	border-radius: 5px;
+}
+.mainContent{
+	line-height: 25px;
+	
+}
+.content{
+	width: 70%;
+	float: left;
+}
+.topcontent, .bottomcontent{
+	background-color: #FFF;
+	border-radius: 5px;
+	padding: 3% 5%;
+	margin-top: 2%;
+}
+.post-info{
+	font-style: italic;
+	font-size: 95%;
+	color: #999;
+}
+.top-sidebar, .middle-sidebar, .bottom-sidebar{
+	width: 21%;
+	float: left;
+	background-color: #FFF;
+	border-radius: 5px;
+	padding: 2% 3%;
+	margin: 2% 0 0 3%;
+}
+.mainFooter{
+	width: 100%;
+	height: 40px;
+	float: left;
+	border-radius: 5px;
+	background-color: #666;
+	margin: 2% 0;
+
+}
+.mainFooter p{
+width: 92%;
+color: #FFF;
+margin: 10px auto; 
+}
+@media only screen and (min-width: 150px) and (max-width:600px){
+  .body{
+	width: 95%;
+	}
+	.mainHeader img{
+	width: 100%;
+}
+	nav{
+
+		height: 160px;
+
+	}
+	.mainHeader nav ul{
+		padding-left: 0;
+		
+	}
+	.mainHeader nav ul li{
+		width: 100%;
+		text-align: center;
+		display: block;
+
+	}
+
+	.mainHeader nav a{
+		border-radius: 5px;
+
+	}
+	.mainHeader nav a:link, .mainHeader nav a:visited{
+		display: block;
+
+	}
+	.post-info{
+		display: none;
+	}
+	.content{
+		width: 100%;
+		float: left;
+		margin-top: 2%;
+	}
+
+	.topcontent, .bottomcontent{
+		background-color: #FFF;
+		border-radius: 5px;
+		padding: 3% 5%;
+		margin-top: 3%;
+	}
+	.top-sidebar, .middle-sidebar, .bottom-sidebar{
+	width: 94%;
+	margin: 2% 0 2% 0;
+	padding: 2% 3%;
+}
+}
